@@ -1,0 +1,56 @@
+/* AddEmployee.css */
+
+.custom-card {
+    margin: 16px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  
+  .custom-card .ant-card-head {
+    background: #327fa8;
+    color: #fff;
+  }
+  
+  .custom-form .ant-form-item-label > label {
+    color: #327fa8;
+  }
+  
+  .custom-form .ant-form-item {
+    margin-bottom: 10px;
+  }
+  
+  .custom-form .ant-divider {
+    border-color: #327fa8;
+  }
+  
+  .activity-epi-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .activity-item,
+  .epi-item,
+  .ca-item {
+    flex: 1;
+    min-width: 100px;
+  }
+  
+  .add-epi-button {
+    margin-top: 30px;
+  }
+  
+  .add-activity-button {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .save-button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  

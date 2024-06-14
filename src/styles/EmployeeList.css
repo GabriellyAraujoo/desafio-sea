@@ -1,0 +1,85 @@
+/* EmployeeList.css */
+
+.header-actions {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .employee-status {
+    display: flex;
+    gap: 4px;
+    margin-top: 0;
+  }
+  
+  .footer-actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .employee-card {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px; /* Allow the card height to adjust based on content */
+  }
+  
+  .card-active {
+    background-color: #e6f7ff;
+  }
+  
+  .card-inactive {
+    background-color: #f5f5f5;
+  }
+  
+  .employee-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .employee-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+  }
+  
+  .employee-cpf {
+    color: #888;
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  
+  .employee-list-container {
+    overflow-y: auto;
+  }
+  
+  .status-tag, .role-tag {
+    background-color: #327fa8;
+    color: #fff;
+    border-radius: 16px;
+    padding: 2px 8px;
+    margin-left: 0;
+  }
+  
+  .ant-card-meta-title {
+    color: #4d4d4d;
+  }
+  
+  .ant-card-meta-description {
+    color: #4d4d4d;
+  }
+  
